@@ -1,12 +1,12 @@
 package teste;
 
-import teste.model.Gato;
+import teste.model.Gato1;
 
 public class teste {
 
 	public static void main(String[] args) {
 		    
-		Gato gato = new Gato();
+		Gato1 gato = new Gato1();
 	    Livros livros = new Livros();
 	    		
 		System.out.println(gato);
@@ -20,7 +20,7 @@ public class teste {
 		}
 
 class Livros {
-	private String nome;
+	private String name;
 	private String npag;
 }
 

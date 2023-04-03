@@ -2,15 +2,15 @@ package teste.model;
 
 import java.util.Objects;
 
-public class Gato {
+public class Gato1 {
      
 	private String nome;
 	private String cor;
 	private Integer idade;
 	
-	public Gato(){}
+	public Gato1(){}
 
-	public Gato(String nome, String cor, Integer idade) {
+	public Gato1(String nome, String cor, Integer idade) {
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
@@ -53,7 +53,7 @@ public class Gato {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Gato other = (Gato) obj;
+		Gato1 other = (Gato1) obj;
 		return Objects.equals(cor, other.cor) && Objects.equals(idade, other.idade) && Objects.equals(nome, other.nome);
 	}
 
@@ -64,7 +64,7 @@ public class Gato {
 	}
 	
 	
-	public Gato(String nome, String cor, Integer idade)  {
+	public void Gato(String nome, String cor, Integer idade)  {
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
