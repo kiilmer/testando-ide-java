@@ -21,6 +21,6 @@ public class teste {
 
 class Livros {
 	private String nome;
-	private String pags;
+	private String npag;
 }
 
